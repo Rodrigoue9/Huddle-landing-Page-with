@@ -1,4 +1,5 @@
-<h1>Link do site: </h1>
+<h1>Link do site: https://huddle-landingpage-ue9.netlify.app/</h1>
+
 # Frontend Mentor - Huddle landing page with alternating feature blocks
 
 ![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
