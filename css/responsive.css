@@ -1,0 +1,365 @@
+#tirar-colocar-fundoMob{
+    display: none;
+}
+
+@media(max-width:1180px){
+
+    .apresentacaoText h1{
+        font-size: 35px;
+   margin-top: 0;
+    }
+    #h1-margin{
+        margin-top: -10px;
+    }
+    .apresentacaoText h3{
+        font-size: 17px;
+    }
+    .imagemApresentacao img{
+        width: 80%;
+    margin-left: 10%;
+    }
+    .apresentacaoBack{
+        height: 400px;
+    }
+
+    .esquerdaLado2{
+height: 400px;
+    }
+    .imgFundo img{
+        height: 600px;
+    }
+.backgroundFundoHeader{
+    height: 600px;
+}
+}
+@media(max-width:1000px){
+div .BlocoButton{
+    width: 70%;
+}
+.apresentacaoButton a{
+    width: 300px;
+}
+.apresentacaoButton a p{
+    font-size: 15px;
+}
+.esquerdaLado2{
+    width: 50%;
+}
+.apresentacaoBack{
+    width: 50%;
+}
+.imagemApresentacao img{
+    width: 100%;
+    margin-left: 0;
+}
+.apresentacaoText h3{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.buttonLogo a{
+    width: 200px;
+    height: 55px;
+}
+.buttonLogo a p{
+    font-size: 17px;
+}
+div .Bloco{
+    height: 300px;
+}
+div .Blocoleft{
+    height: 300px;
+}
+div .espacoBloco2 img{
+    margin-top: 0;
+}
+div .espacoBloco1Text h1{
+    margin-top: 50px;
+}
+}
+@media(max-width:900px){
+    .apresentacaoText h3{
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    .apresentacaoText h1{
+        font-size: 27px;
+   margin-top: 0;
+    }
+
+}
+@media(max-width:800px){
+   div .BlocoButton{
+    
+       width: 80%;
+   }
+   .apresentacao{
+    flex-direction: column;
+    align-items: center;
+}
+.apresentacaoText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.apresentacaoButton{
+    width: auto;
+}
+.apresentacaoText h3{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.apresentacaoText h1{
+    font-size: 35px;
+    align-items: center;
+margin-top: 0;
+}
+.apresentacaoBack{
+    width: 100%;
+}
+.esquerdaLado2{
+    width: 100%;
+}
+.imagemApresentacao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.imagemApresentacao img{
+  
+    width: 70%;
+}
+#tirar-colocar-fundoMob{
+display: block;
+height: 120%;
+}
+.backgroundFundoHeader{
+    height: 1020px;
+}
+#tirar-fundo-principal{
+    display: none;
+}
+div .Bloco{
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 800px;
+    width: 90%;
+}
+div .espacoBloco2{
+    width: 80%;
+    height: 400px;
+}
+div .espacoBloco1{
+  height: 400px;
+    width: 80%;
+    
+
+}
+div .espacoBloco2flex2{
+height: 400px;
+width: 80%;
+}
+div .espacoBloco2flex{
+    height: 400px;
+    width: 80%;
+    }
+div .espacoBloco1Text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+div .espacoBloco1 h1{
+    align-items: center;
+    font-size: 40px;
+}
+div .Blocoleft{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 800px;
+    width: 90%;
+    align-items: center;
+}
+
+body footer {
+    height: 850px;
+}
+div .blocoFooter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+div .FooterBloco1{
+    height: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+div .FooterBloco2{
+    height: auto;
+    align-items: baseline;
+    width: 80%;
+    margin-bottom: 30px;
+}
+div .FooterBloco4{ 
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+margin-top: 50px;
+}
+.FooterBloco4 .possitionRedes{
+ margin: auto;
+}
+div .FooterBloco4 p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+div .espacoBloco1Footer{
+    margin-left: 0;
+    margin: auto;
+}
+
+
+}
+@media (max-width:630px){
+   div .BlocoButton{
+        width: 90%;
+        height: 250px;
+    }
+   div .BlocoButton h1{
+       margin-top: 50px;
+        font-size: 20px;
+    }
+    div .buttonEnd{
+        margin-top: 50px;
+    }
+div .buttonEnd a{
+padding: 20px 50px;
+font-size: 15px;
+}
+body footer{
+    height: 950px;
+}
+}
+
+@media (max-width:550px){
+.imglogo img{
+    margin-top: 30px;
+margin-left: 20px;
+width: 200px;
+    }
+   div .espacoBloco1 h1{
+        font-size: 30px;
+    }
+   div .espacoBloco1 {
+        width: 90%;
+    }
+    
+    .buttonLogo{
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .buttonLogo a {
+        width: 150px;
+        height: 45px;
+    }
+    .buttonLogo a p{
+        font-size: 13px;
+        margin-top: 13px;
+    }
+    .backgroundFundoHeader{
+        height: 930px;
+    }
+    #tirar-colocar-fundoMob{
+        height: 100%;
+    }
+    .apresentacaoBack{
+        height: 450px;
+    }
+    .esquerdaLado2{
+        height: 300px;
+    }
+    .imagemApresentacao{
+        height: 300px;
+    }
+    .imagemApresentacao img{
+        width: 90%;
+    }
+    div .espacoBloco2{
+        width: 100%;
+    }
+     div .espacoBloco2 img{
+        width: 90%;
+    }
+    div .espacoBloco2flex{
+        width: 100%;
+    }
+    div .espacoBloco2flex img{
+        width: 90%;
+    }
+    div .espacoBloco2flex2{
+        width: 100%;
+    }
+    div .espacoBloco2flex2 img{
+        width: 90%;
+    }
+}
+@media (max-width:490px){
+    .apresentacaoBack{
+        height: 500px;
+    }
+    .apresentacaoText{
+        width: 95%;
+    }
+}
+
+@media (max-width:400px){
+    div .BlocoButton{
+        width: 95%;
+        height: 220px;
+    }
+    div .BlocoButton h1{
+        margin-top: 50px;
+         font-size: 20px;
+     }
+     div .buttonEnd{
+         margin-top: 30px;
+     }
+ div .buttonEnd a{
+ padding: 15px 40px;
+ font-size: 15px;
+
+ }
+ .imglogo img{
+    margin-top: 25px;
+margin-left: 10px;
+width: 150px;
+    }
+ .buttonLogo{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.buttonLogo a {
+    width: 150px;
+    height: 45px;
+}
+.buttonLogo a p{
+    font-size: 13px;
+    margin-top: 13px;
+}
+.apresentacaoBack h1{
+    font-size: 30px;
+}
+.apresentacaoBack h3{
+    font-size: 14px;
+    text-align: center;
+}
+.apresentacaoBack{
+    height: 400px;
+}
+.backgroundFundoHeader{
+    height: 850px;
+}
+}

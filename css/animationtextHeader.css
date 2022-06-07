@@ -1,0 +1,51 @@
+:root{
+    --VeryPaleCyan: rgb(235, 251, 255);
+    --VeryDarkCyan: rgb(0, 37, 46);
+    --GrayishBlue: rgb(128, 141, 153);
+    --Pink: rgb(255, 82, 191);
+}
+@keyframes text_review{
+    100%{
+        color: black;
+    }
+}
+@keyframes text_review_box{
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width: 0%;
+        left: 100%;
+    }
+}
+.apresentacaoBack h1{
+    display: block;
+    width: fit-content;
+    position: relative;
+    color: transparent;
+    animation: text_review 1s ease forwards;
+    animation-delay: 1.5s;
+}
+.apresentacaoBack h1:nth-child(1){
+    animation-delay: 1.5s;
+}
+.apresentacaoBack h1:nth-child(2){
+    animation-delay: 2.5s;
+}
+.apresentacaoBack h1:nth-child(1) span{
+    animation-delay: 1s;
+}
+.apresentacaoBack h1:nth-child(2) span{
+    animation-delay: 2s;
+}
+.apresentacaoBack h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+animation: text_review_box 1s ease;
+animation-delay: .5s;
+background-color: var(--Pink);
+}

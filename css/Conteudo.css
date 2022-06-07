@@ -1,0 +1,123 @@
+:root{
+    --VeryPaleCyan: rgb(235, 251, 255);
+    --VeryDarkCyan: rgb(0, 37, 46);
+    --GrayishBlue: rgb(128, 141, 153);
+    --Pink: rgb(255, 82, 191);
+}
+.ConteudoPrincipal{
+    font-family: 'Poppins', sans-serif;
+/* dsa */
+}
+.Cont{
+    display: flex;
+    justify-content: center;
+
+}
+.Cont:nth-child(1){
+    margin-top: 100px;
+}
+.Bloco{
+    width: 90%;
+    display: flex;
+ border-radius: 20px;
+ margin-top: 40px;
+    height: 400px;
+box-shadow:1px 1px 5px var(--GrayishBlue) ;
+}
+.Blocoleft{
+    width: 90%;
+    display: flex;
+ border-radius: 20px;
+ margin-top: 40px;
+    height: 400px;
+box-shadow:1px 1px 3px var(--GrayishBlue) ;  
+flex-direction: row-reverse;
+}
+.espacoBloco1{
+    width: 60%;
+
+}
+.espacoBloco1 h1{
+color: var(--VeryDarkCyan);
+
+}
+.espacoBloco1 p{
+    color: var(--GrayishBlue);
+}
+.espacoBloco2{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.espacoBloco2 img{
+width: 80%;
+margin-top: 20px;
+
+}
+
+.espacoBloco1Text{
+    width: 70%;
+    margin: auto;
+}
+.espacoBloco1Text h1{
+    margin-top: 120px;
+    font-size: 30px;
+}
+.espacoBloco2flex{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.espacoBloco2flex img{
+  width: 80%;
+   display: flex;
+    }
+    .espacoBloco2flex2{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .espacoBloco2flex2 img{
+        width: 80%;
+         display: flex;
+          }
+.ContButton{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.BlocoButton{
+   background-color: white;
+    width: 50%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow:1px 1px 3px var(--GrayishBlue) ;  
+}
+.BlocoButton h1{
+    font-size: 30px;
+    text-align: center;
+}
+.buttonEnd{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+.buttonEnd a{
+    text-decoration:none ;
+    color:  white;
+    padding: 30px 100px;
+    font-size: 20px;
+    border-radius: 60px;
+    background-color: var(--Pink);
+}
+.buttonEnd a:hover{
+    background-color:rgb(255, 117, 204) ;
+    transition: 0.5s;
+}
+
+/* .espacoBloco:nth-child(2){
+     background-color: black; */ 
